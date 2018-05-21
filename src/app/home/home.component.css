@@ -1,0 +1,29 @@
+
+section{
+    background: url('../../assets/pexels-photo-70912.jpeg')no-repeat top right  !important;
+    background-size: cover !important;
+    width: 100%!important;
+    height: 100%!important;
+    position: fixed !important;
+    transition: all 0.8s ease-in-out;
+    -webkit-transition: all 0.8s ease-in-out;
+    -moz-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+    animation: back-cover 90s  infinite;
+    -webkit-animation: back-cover 90s  infinite;
+    -moz-animation: back-cover 90s  infinite;
+    -o-animation: back-cover 90s  infinite;
+}
+@keyframes back-cover {
+    0%   {background-position: top right !important;}
+    25%  {background-position: bottom right !important;}
+    50%  {background-position: top right !important;}
+    100% {background-position: bottom right !important;}
+}
+.customize{
+    background-color: #3498db;
+    padding: 80px;
+    margin-top: 60px;
+    border-radius: 3px;
+    opacity: 0.8;
+}
