@@ -5,13 +5,15 @@ import { HomeComponent } from './home/home.component';
 import { ReservationComponent } from './reservation/reservation.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { ControlpanelComponent } from './controlpanel/controlpanel.component';
+import { RentcarComponent } from './rentcar/rentcar.component';
 import { RouterModule, Routes } from '@angular/router';
 
 const appRoutes: Routes = [
-    { path: 'home', component: HomeComponent },
+    { path: '', component: HomeComponent },
     { path: 'reservation', component: ReservationComponent },
     { path: 'checkout', component: CheckoutComponent },
     { path: 'controlpanel', component: ControlpanelComponent },
+    { path: 'rentcar', component:RentcarComponent}
 
 ];
 
@@ -21,7 +23,8 @@ const appRoutes: Routes = [
     HomeComponent,
     ReservationComponent,
     CheckoutComponent,
-    ControlpanelComponent
+    ControlpanelComponent,
+    RentcarComponent
   ],
   imports: [
     BrowserModule,

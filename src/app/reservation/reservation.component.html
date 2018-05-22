@@ -1,7 +1,7 @@
 <section class="container-fluid">
   <div class="row">
-    <div class="col-md-12 col-xs-12">
-      <div class="col-md-4">
+    <div class="col-md-6 col-xs-12">
+      <div class="col-md-8">
         <form class="customize">
           <div class="input-group mb-3">
             <input type="text" class="form-control" placeholder="E-mail" aria-label="E-mail" aria-describedby="basic-addon2">
@@ -16,10 +16,30 @@
             <input type="password" class="form-control" placeholder="Comfirm Password" aria-label="E-mail" aria-describedby="basic-addon2">
           </div>
           <div class="input-group mb-3">
-            <button class="btn btn-primary ">Register</button>
+            <select class="custom-select" id="inputGroupSelect04">
+              <option selected>Gender...</option>
+              <option value="1">Male</option>
+              <option value="2">Female</option>
+            </select>
+          </div>
+          <div class="input-group mb-3">
+            <select class="custom-select" id="inputGroupSelect05">
+              <option selected>Country...</option>
+              <option value="1">America</option>
+              <option value="2">Egypt</option>
+              <option value="2">England</option>
+              <option value="2">France</option>
+            </select>
+          </div>
+          <div class="input-group mb-3">
+            <button class="btn btn-primary" routerLink="/rentcar">Register</button>
           </div>
         </form>
       </div>
+    </div>
+    <div class="col-md-6 col-xs-12 text-center">
+      <h1>Cairo Car Zone,</h1>
+      <h2>let's Register Your Account.</h2>
     </div>
   </div>
 </section>
