@@ -7,6 +7,7 @@ import { CheckoutComponent } from './checkout/checkout.component';
 import { ControlpanelComponent } from './controlpanel/controlpanel.component';
 import { RentcarComponent } from './rentcar/rentcar.component';
 import { RouterModule, Routes } from '@angular/router';
+import {AngularFontAwesomeModule} from "angular-font-awesome";
 
 const appRoutes: Routes = [
     { path: '', component: HomeComponent },
@@ -28,6 +29,7 @@ const appRoutes: Routes = [
   ],
   imports: [
     BrowserModule,
+      AngularFontAwesomeModule,
       RouterModule.forRoot(
           appRoutes,
           { enableTracing: false } // <-- debugging purposes only

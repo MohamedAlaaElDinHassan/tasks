@@ -1,3 +1,73 @@
-<p>
-  controlpanel works!
-</p>
+<div class="container-fluid mix">
+  <div class="row">
+    <div class="col-md-2 col-sm-1 hidden-xs  v-align box" id="navigation">
+
+      <div class="navi">
+        <ul>
+          <li class="active"><a href="#"><i class="fa fa-home" aria-hidden="true"></i><span
+                  class="hidden-xs hidden-sm">Home</span></a></li>
+          <li><a href="#"><i class="fa fa-tasks" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Workflow</span></a>
+          </li>
+          <li><a href="#"><i class="fa fa-bar-chart" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Statistics</span></a>
+          </li>
+          <li><a href="#"><i class="fa fa-calendar" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Calender</span></a>
+          </li>
+          <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Users</span></a>
+          </li>
+          <li><a href="#"><i class="fa fa-gift" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Offers</span></a>
+          <li><a href="#"><i class="fa fa-cog" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Setting</span></a>
+          <li><a href="#" routerLink="/"><i class="fa fa-sign-out" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Logout</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-md-10 col-sm-11 v-align">
+      <div class="user-dashboard">
+        <h1>Cairo Car Zone</h1>
+
+        <!--first row-->
+        <div class="row">
+          <div class="col-md-5 col-sm-5 col-xs-12 gutter">
+
+            <div class="sales">
+              <h2>Pick-up Date</h2>
+
+              <div class="btn-group">
+                <select class="custom-select" id="inputGroupSelect01">
+                  <option selected>D/M/Y</option>
+                  <option value="1">10/06/2010</option>
+                  <option value="2">11/07/2010</option>
+                  <option value="3">12/08/2010</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-7 col-sm-7 col-xs-12 gutter">
+            <div class="sales report">
+              <h2>Drop-off Date</h2>
+              <div class="btn-group">
+                <select class="custom-select" id="inputGroupSelect02">
+                  <option selected>D/M/Y</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="../../assets/pexels-photo-116675.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Rang Rover</h5>
+              <p class="card-text">Reserved from <a href="#">12/10/2010</a> to <a href="#">25/10/2010</a> </p>
+            </div>
+            <a href="#" class="text-center">Delete</a>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
