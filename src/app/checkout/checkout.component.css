@@ -8,10 +8,15 @@ section{
     -webkit-transition: all 0.8s ease-in-out;
     -moz-transition: all 0.8s ease-in-out;
     -o-transition: all 0.8s ease-in-out;
-    animation: back-cover 90s  infinite;
-    -webkit-animation: back-cover 90s  infinite;
-    -moz-animation: back-cover 90s  infinite;
-    -o-animation: back-cover 90s  infinite;
+    animation: back-cover 10s linear infinite;
+}
+@keyframes back-cover {
+    0%   {opacity: 1;}
+    25%  {opacity: 0.9;}
+    50%  {opacity: 0.8;}
+    75%  {opacity: 0.7;}
+    85%  {opacity: 0.8;}
+    100% {opacity: 0.9;}
 }
 .customize{
     background-color: #3498db;
@@ -20,7 +25,7 @@ section{
     border-radius: 3px;
     opacity: 0.8;
 }
-input.form-control {
+select,input.form-control {
     border: 2px solid #C4c4c4;
     border-radius: 0;
     padding-left: 6px;
@@ -40,4 +45,9 @@ h1,h2{
     letter-spacing: 3px;
     text-transform: uppercase;
     background:#000 ;
+}
+label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 6px;
 }

@@ -8,6 +8,8 @@ import { ControlpanelComponent } from './controlpanel/controlpanel.component';
 import { RentcarComponent } from './rentcar/rentcar.component';
 import { RouterModule, Routes } from '@angular/router';
 import {AngularFontAwesomeModule} from "angular-font-awesome";
+import { DlDateTimePickerDateModule } from 'angular-bootstrap-datetimepicker';
+
 
 const appRoutes: Routes = [
     { path: '', component: HomeComponent },
@@ -29,6 +31,7 @@ const appRoutes: Routes = [
   ],
   imports: [
     BrowserModule,
+      DlDateTimePickerDateModule,
       AngularFontAwesomeModule,
       RouterModule.forRoot(
           appRoutes,

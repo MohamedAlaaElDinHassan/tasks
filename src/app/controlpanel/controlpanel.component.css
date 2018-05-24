@@ -317,6 +317,13 @@ li,ul{
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
+select,input.form-control {
+    border: 2px solid #C4c4c4;
+    border-radius: 0;
+    padding-left: 6px;
+    padding-right: 6px;
+    height: 40px;
+}
 .search input {
     border: none;
     font-size: 15px;
@@ -646,6 +653,19 @@ header {
     .gutter{
         padding: 0;
     }
+}
+
+
+h5{
+    color: #0d172e;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: bold;
+}
+p{
+    color: #444;
+    font-weight: bold;
+    font-size: 12px;
 }
 
 @media only screen and (max-device-width: 992px) {
